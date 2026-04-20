@@ -5,12 +5,12 @@ Tools for analyzing and quantifying sample drift in scanning microscopy (e.g. tw
 This repository implements:
 - Localization of centers of large (4-micron diameter) fluorescent beads
 - Removal of the drift with slowly-changing speed
-- Maximum likelihood estimation (MLE) diffusion coefficients of beads
+- Maximum likelihood estimation (MLE) of diffusion coefficients of the fluorescent beads
 
 ## 📌 Motivation
 
 Microscope drift (thermal, mechanical, or piezo-induced) limits spatial
-precision in high-resolution imaging. This repository provides a lightweight
+precision in high-resolution imaging. One of the key issues in tracking objects with super-localization is to separate motion of the microscope's stage relative to the objective from the actual motion of the object in a sample, relative to the objective. This repository provides a lightweight
 framework to:
 
 - Separate drift from stochastic motion
